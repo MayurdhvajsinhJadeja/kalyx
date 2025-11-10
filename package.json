@@ -1,0 +1,40 @@
+{
+    "name": "kalyx",
+    "version": "0.1.0",
+    "description": "Type intent in human language → get commands via local open-source LLM (Ollama). Windows/macOS/Linux.",
+    "type": "module",
+    "bin": {
+        "kalyx": "bin/kalyx.js"
+    },
+    "files": [
+        "bin",
+        "src",
+        "README.md",
+        "LICENSE"
+    ],
+    "engines": {
+        "node": ">=18"
+    },
+    "scripts": {
+        "start": "node bin/kalyx.js",
+        "test:pack": "npm pack"
+    },
+    "dependencies": {
+        "@clack/prompts": "^0.7.0",
+        "node-fetch": "^3.3.2"
+    },
+    "keywords": [
+        "cli",
+        "ollama",
+        "powershell",
+        "bash",
+        "terminal",
+        "llm"
+    ],
+    "license": "MIT",
+    "repository": "github:MayurdhvajsinhJadeja/kalyx",
+    "homepage": "https://github.com/MayurdhvajsinhJadeja/kalyx#readme",
+    "bugs": {
+        "url": "https://github.com/MayurdhvajsinhJadeja/kalyx/issues"
+    }
+}
