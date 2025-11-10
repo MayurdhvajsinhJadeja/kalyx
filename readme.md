@@ -1,4 +1,4 @@
-# Kalyx: The Human-First Terminal
+# Kalyx: The Human-First Terminal Tool
 
 **Kalyx** is a command-line tool that translates your natural language into shell commands. It's powered by local language models via Ollama, so it's fast, free, and private.
 
@@ -45,5 +45,6 @@ Kalyx uses a local language model to understand your intent and suggest commands
 Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
+
 
 This project is licensed under the MIT License.
